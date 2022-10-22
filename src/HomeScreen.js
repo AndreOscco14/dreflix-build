@@ -19,7 +19,6 @@ function HomeScreen() {
         {/*BANNER*/}
         <Banner />
 
-
         {/*ROW*/}
         <Row 
           title="Netflix Originals"
@@ -33,9 +32,6 @@ function HomeScreen() {
         <Row title="Horror" fetchUrl={requests.fetchHorrorMovies} />
         <Row title="Románticas" fetchUrl={requests.fetchRomanceMovies} />
         <Row title="Documentales" fetchUrl={requests.fetchDocumentaries} />
-
-
-
     </div>
   )
 }
