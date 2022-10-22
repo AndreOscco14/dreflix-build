@@ -1,13 +1,12 @@
 import React from 'react';
 //Importamos Nav en HomeScreen.
-import Nav from './Nav';
+import Nav from './app/components/nav/Nav';
 //IMPORTAMOS EL CSS DE HOMESCREEN (pagina de inicio)
 import './HomeScreen.css';
 //Importamos el Banner.js a HomeScreen
-import Banner from './Banner';
+import Banner from './app/components/banner/Banner';
 import requests from './Request';
-import Row from './Row';
-
+import Row from './app/components/row/Row';
 
 
 function HomeScreen() {
